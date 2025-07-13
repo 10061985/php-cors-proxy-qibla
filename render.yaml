@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: php-cors-proxy-qibla
+    env: php
+    plan: free
+    buildCommand: ""
+    startCommand: ""
+    rootDir: public
+    region: frankfurt
